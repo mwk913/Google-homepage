@@ -209,16 +209,6 @@ input[type=text]:hover , input[type=text]:focus {
 
     /*CENTERS FOOTER AT MAX-WIDTH 600PX*/
 
-    .search_box {
-        height: 140px;
-        margin-top: 10px;
-        text-align: center;
-    }
-
-    .google>img {
-        margin-top: 20px;
-    }
-   
     div.footers {
         width: 300px;
         height: 80px;
@@ -235,5 +225,13 @@ input[type=text]:hover , input[type=text]:focus {
 
     div.footer_left>ul {
         text-align: center;
+    }
+}
+
+/* HIDES FOOTER WHEN SCREEN HEIGHT IS 500PX*/
+@media only screen and (max-height: 500px) {
+
+    .footer {
+        display: none;
     }
 }
