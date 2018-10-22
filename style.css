@@ -208,6 +208,17 @@ input[type=text]:hover , input[type=text]:focus {
     }
 
     /*CENTERS FOOTER AT MAX-WIDTH 600PX*/
+
+    .search_box {
+        height: 140px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .google>img {
+        margin-top: 20px;
+    }
+   
     div.footers {
         width: 300px;
         height: 80px;
